@@ -1,10 +1,9 @@
-package Golang
+package main
 
 import "fmt"
 
 func main() {
 	fmt.Println("Hello world")
-
 }
 
 //Run With :go run Hello-world.go
