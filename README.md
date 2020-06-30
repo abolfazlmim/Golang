@@ -1,3 +1,3 @@
 # Golang
-Golang Program 
-My learning journey to Golang
+#Golang Program 
+//My learning journey to Golang
