@@ -17,15 +17,15 @@ func main() {
     NTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
     checkError(err)
     N := int32(NTemp)
-    if  N%2!=0 &&  { 
+    if  N % 2 != 0   { 
         fmt.Println("Weird")
-    } else if N%2==0 && 2<= N <=5 {
+    } else if N%2==0 && (N>1 && N<6){
         fmt.Println("Not Weird")
-    }else if N%2==0 && 6<= N <=20 {
+    }else if N%2==0 && (N>5 && N<21){
         fmt.Println("Weird")
     }else if N%2==0 && N>20{
         fmt.Println("Not Weird")
-    }
+}
 }
 
 func readLine(reader *bufio.Reader) string {
